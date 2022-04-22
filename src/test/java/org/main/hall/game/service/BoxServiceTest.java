@@ -15,6 +15,6 @@ public class BoxServiceTest {
     public void testBoxListIsGeneratedCorrectly() {
         List<Box> boxList = boxService.getBoxListForTheShow();
         Assert.assertEquals(3, boxList.size());
-        Assert.assertEquals(1, boxList.stream().filter(Box::isHasMoney).toList().size());
+        Assert.assertEquals(1, boxList.stream().filter(Box::isHasMoney).count());
     }
 }
