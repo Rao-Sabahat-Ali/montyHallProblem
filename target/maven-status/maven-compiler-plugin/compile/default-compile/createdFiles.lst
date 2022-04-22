@@ -1,0 +1,6 @@
+org/main/hall/game/controller/BoxController.class
+org/main/hall/game/service/BoxService.class
+org/main/hall/game/constants/Constants.class
+org/main/hall/game/utility/RandomNumberUtils.class
+org/main/hall/game/model/Box.class
+org/main/hall/game/Main.class
