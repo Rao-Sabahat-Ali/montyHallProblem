@@ -1,7 +1,10 @@
 
 # Monty Hall Problem
 
-The project uses maven. Run the following commands to start
+The project uses maven and Java 18. If you are using an older version of java then update `pom.xml` accordingly. 
+
+Run the following commands to start
+
 
 ```
 mvn clean compile package
